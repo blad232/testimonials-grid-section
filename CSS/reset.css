@@ -1,0 +1,46 @@
+:root {
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --White: hsl(0, 0%, 100%);
+    --Button-hover: hsl(281, 86%, 55%);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+.attribution {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.attribution>a {
+    color: var(--Very-Dark-Grayish-Blue);
+    font-family: "Times New Roman";
+    font-weight: 500;
+}
+
+.attribution>a:visited {
+    color: var(--Very-Dark-Grayish-Blue);
+}
+
+.attribution>a:hover {
+    color: var(--Button-hover);
+}
